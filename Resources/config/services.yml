@@ -2,8 +2,6 @@ services:
     # models
     ras_flash_alert.alert_manager:
         class: Ras\Bundle\FlashAlertBundle\Model\AlertManager
-        arguments:
-            session: "@Session"
 
     ras_flash_alert.alert_reporter:
         class: Ras\Bundle\FlashAlertBundle\Model\AlertReporter
